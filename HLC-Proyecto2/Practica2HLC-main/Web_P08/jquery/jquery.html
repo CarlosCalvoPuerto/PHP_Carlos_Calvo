@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<!-- Código de Idioma Español -->
+<html lang="es">
+
+<head>
+
+    <!-- Las etiquetas meta o meta tags encabezan un documento HTML y suministran información codificada a navegadores y motores de búsqueda sobre una página web.
+        Meta con atributo charset está el destinado a indicar la codificación de caracteres utilizada (charset).
+        En HTML5 la codificación por defecto es UTF-8, no obstante, es el navegador el que finalmente decide la codificación a utilizar.
+        Es recomendable su uso para navegadores mal configurados o antiguos.
+        Se recomienda colocar despues de <head>
+    -->
+    <meta charset="UTF-8">
+    <meta name="title" content="Título de la Web">
+    <meta name="description" content="Descripción de la Web">
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <!-- jQuery -->
+    <script type="text/javascript" src="pfad_a_archivo_ jquery /jquery.js"></script>
+
+    <title>Título de la WEB</title>
+    <!-- Icono de la pestaña -->
+    <link rel="shortcut icon" href="leon.ico" />
+</head>
+
+<body>
+    <header>
+        <span>PRACTICA08</span>
+    </header>
+    <nav>
+        <ul id="menu">
+            <li><a href="../index.html">HOME</a></li>
+            <li><a href="../frameworks/frameworks.html">Frameworks</a></li>
+            <li><a href="../juegos/juegos.html">Juegos (JS)</a></li>
+            <li><a href="../bootstrap/bootstrap.html">Bootstrap</a></li>
+            <li><a href="#">JQuery</a></li>
+        </ul>
+
+        
+        <script>
+            $("#c1").click(function () {
+                $("#cont1").hide(1500);
+            });
+        </script>
+    </nav>
+
+    <aside>
+        
+        <div id="cont1" class="bloque" style>BLOQUE PRUEBA</div>
+
+        <button class="aBk" id="c1">Ocultar Bloque</button>
+        <br />
+        <button class="aBk" id="c2">Mostrar Bloque</button>
+        <br />
+        <button class="aBk" id="c1b">Ocultar / Mostrar</button>
+
+    </aside>
+
+    <section>
+        <h2>JQUERY</h2>
+        <article>
+            <h2>¿Qué es jQuery?</h2>
+            <p>
+                jQuery es una libreria de JavaScript pequeña, rapida y sofisticada.
+                Hace que cosas como el rocorrido y manipulacion de documentos HTML,
+                manejo de eventos, animacion, y Ajax mas simple con una API facil
+                de usar que funciona a traves de una multitud de buscadores.
+
+                Con una conbinacion de versatibilidad y extensibilidad, jQuery ha
+                cambiadola manera en la que millones de personas escriben JavaScript.
+            </p>
+        </article>
+
+        <article>
+            <h2>Caracteristicas de jQuery</h2>
+            <p>
+                Para entender cómo funciona jQuery debemos atender a sus características.
+            </p>
+            <ul>
+                <li>
+                    <p>
+                        <strong>Constructor jQuery.</strong>
+                        El constructor es una función sobrecargada que nos permite acceder a
+                        los elementos del DOM correspondientes a la consulta que realizamos.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <strong>Trabajar por grupos.</strong>
+                        Los métodos en jQuery pueden realizar consultas mediante iteración
+                        implícita. Es decir, buscando múltiples coincidencias y aplicando
+                        modificaciones para cada elemento en una única instrucción.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Diseñado para realizar consultas a través del DOM. jQuery nos permite
+                        realizar consultas CSS, xPath y transversales.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        sistema modular donde podemos anidar consultas o tareas de una
+                        manera sencilla.
+                    </p>
+                </li>
+            </ul>
+        </article>
+
+        <article>
+            <h2>Ventajas de jQuery</h2>
+            <p>
+                Nos permite realizar consultas sobre la estructura del DOM de la web
+                y realizar personalizaciones a medida como aplicar diferentes estilos
+                y efectos en función de los eventos que definamos. Todo esto se logra
+                mediante una sintaxis simplificada y fácil de entender que permite un
+                desarrollo ágil en nuestros proyectos.
+            </p>
+            <p>
+                Gracias a su modularidad es posible también desarrollar complejos
+                scripts que permiten anidar consultas y correr funciones que
+                contienen diferentes métodos que nos servirán por ejemplo para
+                validar formularios al vuelo antes de su envío.
+            </p>
+        </article>
+
+        <article>
+            <h2>Alternativas a jQuery</h2>
+            <p>
+                Angular JS es probablemente la alternativa más popular en el mercado.
+                Angular es un framework para la creación de páginas web SPA (Single
+                Page Application) mantenido por Google. Cuando una web carga todo a
+                la vez en un mismo documento, Angular lo que hace por debajo es
+                cambiar la vista al navegar por la página para que dé la apariencia
+                de una web normal.
+            </p>
+
+        </article>
+    </section>
+
+    <div class="spacer"></div>
+    <footer>
+        <h4>Redes sociales</h4>
+        <a href="#">Facebook</a>
+        <a href="#">Twitter</a>
+    </footer>
+</body>
+
+</html>

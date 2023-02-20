@@ -1,0 +1,117 @@
+aside {
+    width: 30%;
+    padding-left: 5rem;
+    margin-top: 1rem;
+    margin-left: 5rem;
+    float: inline-end;
+    /*right: inherit;*/
+    border-style: outset;
+    border-radius: 2rem;
+    font-style: italic;
+    background-color: rgba(195, 239, 226, 0.634);
+}
+
+h1 {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:16px;
+	font-weight:bold;
+	margin:0;
+	padding:0;
+	}
+
+hr {
+	border:none;
+	border-top:1px solid #CCCCCC;
+	height:1px;
+	margin-bottom:25px;
+	}
+
+ul#menu{
+	margin:0;
+	padding:0;
+	list-style-type:none;
+	width:auto;
+	position:relative;
+	display:block;
+	height:36px;
+	text-transform:uppercase;
+	font-size:12px;
+	font-weight:bold;
+	background:transparent url("../images/bgOFF.gif") repeat-x top left;
+	font-family:Helvetica,Arial,Verdana,sans-serif;
+	border-bottom:4px solid #336666;
+	border-top:1px solid #C0E2D4;
+    border-radius: 1rem;
+	}
+
+ul#menu li{
+	display:block;
+	float:left;
+	margin:0;
+	padding:0;
+	}
+
+ul#menu li a{
+	display:block;
+	float:left;
+	color:#874B46;
+	text-decoration:none;
+	padding:12px 20px 0 20px;
+	height:24px;
+	background:transparent url("../images/bgDIVIDER.gif") no-repeat top right;
+	}
+
+ul#menu li a:hover{
+	background:transparent url("../images/bgHOVER.gif") no-repeat top right;
+    border-radius: 1rem;
+	}
+
+ul#menu li a.current,ul#menu li a.current:hover{
+	color:#fff;
+	background:transparent url("../images/bgON.gif") no-repeat top right;
+	}
+
+section{/*float:left;*/
+        left:auto;
+        margin-top: 1rem;
+        margin-left: 1rem;
+        margin-right: 50rem;
+        padding: 5rem;
+        border: black;
+        border-style: groove;
+        border-radius: 1rem;
+        background-color: #cccccca1;}
+
+body{background:transparent url("../images/pikrepo.jpg") no-repeat center center fixed; 
+	background-color: #336666;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    scroll-behavior: auto;
+    }
+
+header{background-color: #336666;
+       text-align: center;
+       font-size: 3rem;
+       font-style: normal;
+       font:bold;
+       color: #C0E2D4;
+       border-radius: 1rem;
+        }
+
+footer{background-color: rgba(100, 223, 237, 0.811);
+      text-align: center;
+      padding-bottom: 1rem;
+      border-radius: 1rem;
+      }
+footer h4{padding: 1rem;
+        font: bolder;
+        background-color: rgba(88, 141, 247, 0.638);
+        color:rgba(215, 240, 240, 0.873);
+        border-radius: 1rem;
+    }
+footer a{padding: 1rem;}
+
+
+div .spacer{float: initial;}
